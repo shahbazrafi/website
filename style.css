@@ -39,9 +39,7 @@ h1, h2, h3, h4{
 
 .round {
     border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     max-width: 200px;
     margin: 10px;
     transition: transform .2s ease-in-out;
@@ -64,7 +62,7 @@ body {
 
 .icon {
     width: 20px;
-    margin-right: 0 10px;
+    margin: 5px;
 }
 
 .icon:hover {
